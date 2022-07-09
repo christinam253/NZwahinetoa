@@ -1,0 +1,224 @@
+
+body,
+html {
+  width: 100%; 
+  height: 100%; 
+ background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size:  cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ 
+
+
+/*****************************************  
+ *-- NAVBAR HEADER --* 
+ *****************************************/
+
+.navbar-default{
+	background: #02284e; /* Old browsers */
+    background: -moz-linear-gradient(top, #198ccb 0%, #02284e 100%); /* FF3.6+ */
+    background: -webkit-gradient(top, #198ccb 0%, #02284e 100%); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #198ccb 0%, #02284e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #198ccb 0%, #02284e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #198ccb 0%, #02284e 100%); /* IE10+ */
+    background: linear-gradient(top, #198ccb 0%, #02284e 100%); /* W3C */
+}
+.container-fluid{
+	height: 1rem;
+}
+.navbar-header{
+	height: 0rem;
+}
+
+element.style {
+}
+.navbar-default .navbar-nav>li>a {
+    color: whitesmoke;
+    float: right;
+    vertical-align: middle;
+}
+element.style {
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+/* -- SEARCH BAR -- */
+input {
+	margin-top: 10px;
+}
+
+/* -- HOME BUTTON -- */ 
+element.style {
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #02284e;
+    background-color: whitesmoke;
+}
+
+.search-container {
+	float: right;
+	
+}
+
+/***************************************  
+ *-- BODY CONTENT --* 
+ ***************************************/
+
+
+header {
+	width: 100%;
+	text-align: center;
+	padding: 28% 100px 10px 100px;
+	color: whitesmoke;
+	
+}
+
+.header {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+}
+
+
+.buffer {
+	height: 2rem;
+
+}
+
+section {
+	line-height: 40px;
+	color: whitesmoke;
+}
+
+
+/* -- BUTTON -- */
+.btn {
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	background-color: #02284e;
+}
+
+/********************************  
+ *-- GRID --* 
+ ********************************/
+
+
+
+/* -- Resource Grid -- */
+.grid-container {
+	display: grid;
+	justify-content: center;
+	padding: 30px 30px 30px 30px;
+	column-gap: 30px;
+	grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-rows: repeat(auto-fill, 1fr);
+}
+
+
+/* -- Grid Items -- */
+.grid-item1 {
+	position: relative;
+	border: 3px solid #004483;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(245, 245, 245, 0.6);
+}
+.grid-item2 {
+	position: relative;
+	border: 3px solid #02284e;
+	text-align: left;
+	padding: 10px;
+	background-color: rgba(245, 245, 245, 0.6);
+}
+.grid-item3 {
+	position: relative;
+	border: 3px solid #004483;
+	text-align: left;
+	padding: 0px 5px;
+	background-color: rgba(245, 245, 245, 0.6);
+}
+.grid-item4 {
+	position: relative;
+	border: 3px solid #004483;
+	text-align: left;
+	padding: 0px 5px;
+	background-color: rgba(245, 245, 245, 0.6);
+}
+h2 {
+	color: #02284e;
+	padding: 10px;
+	margin-left: 40px;
+}
+h4 {
+	text-align: center;
+	color: #02284e;
+	line-height: 30px;
+	border-bottom: 1px double #004483;
+}
+h5 {
+	color: #02284e;
+}
+
+.containerp {
+	padding: 20px;
+	color: #02284e;
+	margin: 50px;
+	border: 3px solid #004483;
+	background-color: rgba(245, 245, 245, 0.6);
+}
+.form {
+	color: #02284e;
+}
+
+.histpic {
+	height: 155px;
+	width: 250px;
+
+}
+
+
+
+
+/**************  
+ *-- FOOTER --* 
+ **************/
+
+footer{
+    background: #02284e; /* Old browsers */
+    background: -moz-linear-gradient(top, #198ccb 0%, #02284e 100%); /* FF3.6+ */
+    background: -webkit-gradient(top, #198ccb 0%, #02284e 100%); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #198ccb 0%, #02284e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #198ccb 0%, #02284e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #198ccb 0%, #02284e 100%); /* IE10+ */
+    background: linear-gradient(top, #198ccb 0%, #02284e 100%); /* W3C */
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.text-right{
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+

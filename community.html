@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<! -- FORM to submit testimonials etc. Reviewable for posting? -- !>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Resources </title>
+
+	<! -- Bootstrap -- !> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<! -- Stylesheet -- !> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="community.html">Join the Community</a></li>
+      <div class="search-container">
+       <form action="/action_page.php">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit">Submit</button>
+       </form>
+ 	 </div>
+</nav>
+  
+	
+
+</head>
+<body>
+	<h2 class="text-uppercase"><strong> Join the Community</h2></strong><br>
+<div class="containerp">
+	<p>Here, all members of society are able to share anonymously their own personal stories, experiences, feelings, reviews as well as general news and events. This is in the hopes to facilitate constructive conversation and consideration amoong members of society and to even offer support to women if they should need. Please be kind. </p><br>
+
+ <div class=uploaded>
+ <! -- put in exemplar posts emulate time line, drop down selector to limit post categories -- !>
+ </div>
+
+  <div class="form">
+  	<form method="POST">
+  		What are you sharing? <br>
+		<select name="posts">
+		<option value="experience" >Story or Experience</option><br>
+		<option value="news" >News</option><br>
+		<option value="review" >Media Review</option><br>
+		<option value="events" >Events</option><br>
+		<option value="Other" >Other</option><br>
+		</select> 
+		<br>
+		<br>
+		Tell us about it: <br><input type="text" name="text" required><br>
+		<br>
+
+<! -- Include method to upload a doco, picture, quote or link -- !>
+
+		<div class="shareresit">
+		<input type="submit" name="redirect" value="Share"><br>
+		<input type="reset" name=""></div>
+	</form>
+  </div>
+
+
+</div>
+
+</body>
+
+<div class="footer">
+<footer class="text-right">by Christina Mackay</footer>
+
+</div>
+
+</html>
